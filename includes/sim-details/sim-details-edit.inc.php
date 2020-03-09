@@ -36,7 +36,7 @@ if (!empty($_POST)) {
     $nic_b_fileNameFull = uniqid("", true) . '1' . $nic_b_fileName;
 
     // image file directory
-    $target = '../../assets/images/nic-photo/';
+    $target = '../../../assets/images/emp-photo/';
     $target_nic_f_img = $target . basename($nic_f_fileNameFull);
     $target_nic_b_img = $target . basename($nic_b_fileNameFull);
 
