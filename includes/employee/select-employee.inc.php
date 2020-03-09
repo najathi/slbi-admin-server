@@ -78,11 +78,11 @@ if (isset($_POST["id"])) {
            
                     <div class="row">
                         <div class="col-md-6 text-center">
-                            <img src="assets/images/nic-photo/' . $row["nic_f_img"] . '" width="250px" height="250px" class="img-fluid mt-3">
+                            <img src="assets/images/emp-photo/' . $row["nic_f_img"] . '" width="250px" height="250px" class="img-fluid mt-3">
                             <p class="mb-3 card-text">NIC Front Image</p>
                         </div>
                         <div class="col-md-6 text-center mb-3 img-fluid">
-                            <img src="assets/images/nic-photo/' . $row["nic_b_img"] . '" width="250px" height="250px" class="img-fluid mt-3">
+                            <img src="assets/images/emp-photo/' . $row["nic_b_img"] . '" width="250px" height="250px" class="img-fluid mt-3">
                             <p class="mb-3 card-text">NIC Back Image</p>
                         </div>
                     </div>
