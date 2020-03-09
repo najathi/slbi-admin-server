@@ -13,7 +13,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>Employee</span></a>
+                    <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i><span>Employee</span></a>
                     <ul class="collapse">
                         <li class="<?php if ($CURRENT_PAGE == "Employee") { ?>active<?php } ?>"><a
                                     href="employee">Search</a></li>
