@@ -17,7 +17,7 @@ if (isset($_POST["id"])) {
               
               <div class="row">
                 <div class="col-md-6 text-center m-auto">
-                    <img src="../../../assets/images/emp-photo/' . $row["pass_img"] . '" width="200px" height="200px" class="img-fluid mt-3">
+                    <img src="assets/images/emp-photo/' . $row["pass_img"] . '" width="200px" height="200px" class="img-fluid mt-3">
                     <p class="mb-3 card-text">Passport Size Image</p>
                 </div>
             </div>
