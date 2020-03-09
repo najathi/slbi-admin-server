@@ -38,9 +38,9 @@ if (!empty($_POST)) {
     $nic_b_fileNameFull = uniqid("", true) . '3' . $nic_b_fileName;
 
     // image file directory
-    $target_pass_img = "../../assets/images/pass-photo/" . basename($pass_fileNameFull);
-    $target_nic_f_img = "../../assets/images/nic-photo/" . basename($nic_f_fileNameFull);
-    $target_nic_b_img = "../../assets/images/nic-photo/" . basename($nic_b_fileNameFull);
+    $target_pass_img = "../../assets/images/emp-photo/" . basename($pass_fileNameFull);
+    $target_nic_f_img = "../../assets/images/emp-photo/" . basename($nic_f_fileNameFull);
+    $target_nic_b_img = "../../assets/images/emp-photo/" . basename($nic_b_fileNameFull);
 
 //    move_uploaded_file($_FILES['pass_img']['tmp_name'], $target_pass_img);
 //    move_uploaded_file($_FILES['nic_f_img']['tmp_name'], $target_nic_f_img);
