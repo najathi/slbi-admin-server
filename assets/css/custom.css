@@ -1,0 +1,7 @@
+.second-div .remove {
+  visibility: hidden;
+}
+
+.second-div:last-child .remove {
+  visibility: visible !important;
+}

@@ -1,0 +1,37 @@
+sim_details
+
+id
+namee
+address_l_one
+address_l_two
+nic_no
+nic_f_img
+nic_b_img
+m_no
+designation
+gn_div
+ds_div
+district
+sim_no
+sim_s_no
+user_id
+created_at
+updated_at
+
+$re_customer = $rowPdf['re_customer'];
+
+$namee = $rowPdf['namee'];
+$address_l_one = $rowPdf['address_l_one'];
+$address_l_two = $rowPdf['address_l_two'];
+$nic_no = $rowPdf['nic_no'];
+$nic_f_img = $rowPdf['nic_f_img'];
+$nic_b_img = $rowPdf['nic_b_img'];
+$m_no = $rowPdf['m_no'];
+$designation = $rowPdf['designation'];
+$gn_div = $rowPdf['gn_div'];
+$ds_div = $rowPdf['ds_div'];
+$district = $rowPdf['district'];
+$sim_no = $rowPdf['sim_no'];
+$sim_s_no = $rowPdf['sim_s_no'];
+$user_id = $rowPdf['user_id'];
+$updated_at = $rowPdf['updated_at'];

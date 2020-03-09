@@ -1,0 +1,7 @@
+user_role
+
+	
+role_id
+role_name
+role_created_at
+role_updated_at

@@ -1,0 +1,16 @@
+
+users_acc	
+
+U_ID
+Firstname
+Lastname
+U_Email
+U_Password
+PhNo
+Gender
+DTime
+U_updated_at
+U_Address
+Designation
+Image
+user_role_id
